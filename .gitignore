@@ -1,0 +1,12 @@
+ffmpeg.exe
+venv/
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+*.flac
+
+# Binarios y modelos de whisper.cpp (pesados, se obtienen con setup_whisper.py)
+whisper/*.exe
+whisper/*.dll
+whisper/models/
